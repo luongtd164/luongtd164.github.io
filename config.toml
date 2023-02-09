@@ -1,0 +1,27 @@
+baseURL = 'https://luongtd164.github.io/'
+title = "Luong Tran's Blog"
+logo="bheee"
+themes = "clarity"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+   feature_post = "feature post"
+
+[markup]
+taskLists = false
+[menu]
+[[menu.main]]
+  identifier = 'post'
+  post = "<span class='alert'>New!</span>"
+  name = 'Post'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/posts/'
+  weight = -110
+[[menu.main]]
+  name = 'About'
+  pre = "<i class='fa fa-road'></i>"
+  url = '/About/'
+  weight = -100
+
+author = "Luong"
+largeTwitterCard = true
